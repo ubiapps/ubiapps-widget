@@ -1,0 +1,36 @@
+{ "name": "webinos-widget",
+  "version": "0.8.0",
+  "description": "Webinos Widget",
+  "author": ["Paddy Byers","Toby Ealden"],  
+  "homepage": "http://www.webinos.org",
+  "bugs": "http://jira.webinos.org",
+  "repository": 
+   { "type": "git",
+     "url": "git://github.com/webinos/webinos-widget.git"
+   },
+  "directories": {
+   "lib":"./lib",
+   "node_modules": "./node_modules"
+  },
+  "dependencies":{
+   "zipfile": ">= 0.4.1",
+   "xml2js": "0.2.x",  
+   "data2xml": "0.8.x",
+   "node-expat": ">= 2.0.0"
+  },
+  "optionalDependencies": {
+   "dcrypt": "x.x.x"
+  },
+  "devDependencies" : {  
+   "jasmine-node": "~1.7.0"  
+  },
+  "engines":
+  { "node": ">= 0.6.0",
+    "npm": ">= 1.1.17"
+  },
+  "bundleDependencies":["xmldigsig.js","expat2.js"],
+  "scripts": {
+    "test": "jasmine-node ./test/jasmine/"
+  }
+}
+

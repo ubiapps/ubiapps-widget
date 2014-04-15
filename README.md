@@ -1,4 +1,4 @@
-ubios-widget
-============
+ubiapps-widget
+==============
 
-Enables the packaging and un-packaging of applications, conforming to the W3C widget specification.
+This module enables the packaging and un-packaging of applications, producing packages that conform to the W3C widget specification.
